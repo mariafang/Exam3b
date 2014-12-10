@@ -1,0 +1,41 @@
+﻿body {
+    text-align:center;
+    color:black;
+    background-color:white;
+    font-size:16pt;   
+}
+
+
+h1{
+    font-size:36pt;
+    font-weight:bold;
+}
+
+
+h2{
+    font-size:20pt;
+}
+
+
+#LeftDiv{
+    height:500px;
+    float:left; 
+    width:300px; 
+    text-align:left;
+    padding:20px;
+    border-style:solid;
+    border-color:black;
+    border-width:1pt;
+}
+
+
+#RightDiv{
+    height:500px;
+    float:right;
+    width:500px;
+    text-align:left;
+    padding:20px;
+    border-style:solid;
+    border-color:black;
+    border-width:1pt;
+}
