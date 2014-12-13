@@ -165,4 +165,7 @@
   <data name="tb_Name.Text" xml:space="preserve">
     <value>   输入全名</value>
   </data>
+  <data name="rev_earn.ErrorMessage" xml:space="preserve">
+    <value>*请输入一个有效的数字！</value>
+  </data>
 </root>

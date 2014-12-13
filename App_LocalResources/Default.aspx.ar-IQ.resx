@@ -165,4 +165,7 @@
   <data name="lbl_Wish2.Text" xml:space="preserve">
     <value>كما راتبا في أول وظيفة الخاص بك!</value>
   </data>
+  <data name="rev_earn.ErrorMessage" xml:space="preserve">
+    <value>* الرجاء إدخال رقم صالح!</value>
+  </data>
 </root>

@@ -117,55 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btn_Submit.Text" xml:space="preserve">
-    <value>presentar</value>
+  <data name="lbl_Software" xml:space="preserve">
+    <value>Diseño y Desarrollo de Software </value>
   </data>
-  <data name="lbl_Currency.Text" xml:space="preserve">
-    <value>€</value>
+  <data name="lbl_Welcome" xml:space="preserve">
+    <value>Bienvenido a MSCI:3300</value>
   </data>
-  <data name="lbl_Earn.Text" xml:space="preserve">
-    <value>Cuando me gradúe, espero poder ganar</value>
+  <data name="TitleF" xml:space="preserve">
+    <value>Sra.</value>
   </data>
-  <data name="lbl_Female.Text" xml:space="preserve">
-    <value>femenino</value>
-  </data>
-  <data name="lbl_graduateDate.Text" xml:space="preserve">
-    <value>Tengo la intención de graduarse en:</value>
-  </data>
-  <data name="lbl_Graduate.Text" xml:space="preserve">
-    <value>Espero que tengas un gran día cuando se gradúe en</value>
-  </data>
-  <data name="lbl_Hello.Text" xml:space="preserve">
-    <value>Hola, </value>
-  </data>
-  <data name="lbl_Iam.Text" xml:space="preserve">
-    <value>Yo soy:</value>
-  </data>
-  <data name="lbl_Male.Text" xml:space="preserve">
-    <value>masculino</value>
-  </data>
-  <data name="lbl_MyName.Text" xml:space="preserve">
-    <value>Mi nombre es:</value>
-  </data>
-  <data name="lbl_Visit.Text" xml:space="preserve">
-    <value>Por favor, visite conmigo en</value>
-  </data>
-  <data name="lbl_Wish1.Text" xml:space="preserve">
-    <value>Te deseo lo mejor en su carrera después de la graduación. Espero que gane</value>
-  </data>
-  <data name="tb_Name.Text" xml:space="preserve">
-    <value>   Ingrese el nombre completo</value>
-  </data>
-  <data name="tb_Salary.Text" xml:space="preserve">
-    <value>   Introduzca salario</value>
-  </data>
-  <data name="lbl_Languages.Text" xml:space="preserve">
-    <value>Por favor, elige tu idioma:</value>
-  </data>
-  <data name="lbl_Wish2.Text" xml:space="preserve">
-    <value>como un salario en su primer trabajo!</value>
-  </data>
-  <data name="rev_earn.ErrorMessage" xml:space="preserve">
-    <value>* Por favor, introduzca un número válido!</value>
+  <data name="TitleM" xml:space="preserve">
+    <value>Sr.</value>
   </data>
 </root>

@@ -165,4 +165,7 @@
   <data name="lbl_Wish2.Text" xml:space="preserve">
     <value> as a salary in your first job!</value>
   </data>
+  <data name="rev_earn.ErrorMessage" xml:space="preserve">
+    <value>* Please enter a valid number!</value>
+  </data>
 </root>

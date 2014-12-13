@@ -12,11 +12,8 @@
     <div style="width:884px; margin-left:auto; margin-right:auto;">
         <div style="text-align:center;">
             <p>
-                <h1><asp:Label ID="lbl_Welcome" runat="server" meta:resourcekey="lbl_Welcome"></asp:Label>
-                    <asp:Label ID="lbl_Course" runat="server" meta:resourcekey="lbl_Course"></asp:Label>
-                </h1>
-            
-                <h2><asp:Label ID="lbl_Software" runat="server" meta:resourcekey="lbl_Software"></asp:Label></h2>
+                <h1><asp:Label ID="lbl_Welcome" runat="server" meta:resourcekey="lbl_Welcome" Text="<%$ Resources:Resource, lbl_Welcome %>"></asp:Label></h1>            
+                <h2><asp:Label ID="lbl_Software" runat="server" meta:resourcekey="lbl_Software" Text="<%$ Resources:Resource, lbl_Software %>"></asp:Label></h2>
             </p>
         </div>
 
@@ -28,11 +25,18 @@
                     <br />
                     <br />
 
-                    <asp:DropDownList ID="ddl_Languages" runat="server">
-                        <asp:ListItem>Arabic</asp:ListItem>
-                        <asp:ListItem>Chinese</asp:ListItem>
-                        <asp:ListItem>English</asp:ListItem>
-                        <asp:ListItem>Spanish</asp:ListItem>
+                    <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true">
+                        <asp:ListItem Value="en-US">English</asp:ListItem>
+                        <asp:ListItem Value="ar-IQ">العربية</asp:ListItem>
+                        <asp:ListItem Value="zh-CN">中文</asp:ListItem>                       
+                        <asp:ListItem Value="es-ES">Español</asp:ListItem>
+                    </asp:DropDownList>
+
+                    <asp:DropDownList ID="Language2" runat="server" AutoPostBack="true">
+                        <asp:ListItem Value="en-US">English</asp:ListItem>
+                        <asp:ListItem Value="ar-IQ">العربية</asp:ListItem>
+                        <asp:ListItem Value="zh-CN">中文</asp:ListItem>                       
+                        <asp:ListItem Value="es-ES">Español</asp:ListItem>
                     </asp:DropDownList>
 
                 </td>
@@ -52,7 +56,7 @@
 
                     <asp:Label ID="lbl_Iam" runat="server" meta:resourcekey="lbl_Iam"></asp:Label>
                     &nbsp;&nbsp;
-                    <asp:RadioButton ID="rb_Female" runat="server" GroupName="Radio"/>
+                    <asp:RadioButton ID="rb_Female" runat="server" GroupName="Radio" Checked="True"/>
                     <asp:Label ID="lbl_Female" runat="server" meta:resourcekey="lbl_Female"></asp:Label>
                     &nbsp;&nbsp;
                     <asp:RadioButton ID="rb_Male" runat="server" GroupName="Radio"/>
@@ -61,7 +65,7 @@
                     <br />
 
                     <asp:Label ID="lbl_Graduate" runat="server" meta:resourcekey="lbl_Graduate"></asp:Label>
-                    <asp:Label ID="lbl_Date" runat="server"></asp:Label>!
+                    <asp:Label ID="lbl_Date" runat="server"></asp:Label>
 
                     <br />
 
@@ -78,6 +82,8 @@
 
                     <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
 
+                    <br />
+
                     <asp:Label ID="lbl_Visit" runat="server" meta:resourcekey="lbl_Visit"></asp:Label>
                     <asp:HyperLink ID="hl_Github" runat="server" NavigateUrl="https://github.com/mariafang/Exam3b">GITHUB</asp:HyperLink>
 
@@ -85,6 +91,16 @@
 
                     <asp:Label ID="lbl_Earn" runat="server" meta:resourcekey="lbl_Earn"></asp:Label>
                     <asp:TextBox ID="tb_Salary" runat="server" meta:resourcekey="tb_Salary"></asp:TextBox>
+                    <br />
+                    &nbsp;
+                    <span class="red"><asp:RegularExpressionValidator id="rev_earn" 
+                        ControlToValidate="tb_salary" 
+                        ValidationExpression="\d+" 
+                        Display="Static" 
+                        EnableClientScript="true" 
+                        runat="server"
+                        meta:resourcekey="rev_earn"/> 
+                    </span>
 
                     <br />
                     <br />
