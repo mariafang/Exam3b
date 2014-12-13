@@ -1,8 +1,33 @@
 ﻿body {
-    text-align:center;
     color:black;
     background-color:white;
     font-size:16pt;   
+}
+
+
+table{
+    height:auto;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:solid;
+    border-color:black;
+    border-width:1pt;
+}
+
+
+.auto-style1 {
+    padding:30px;
+    border-right-color:black;
+    border-right-style:solid;
+    border-right-width:1pt;
+    width: 350px;
+}
+
+
+.auto-style2 {
+    padding:40px;
+    width: 600px;
 }
 
 
@@ -14,28 +39,4 @@ h1{
 
 h2{
     font-size:20pt;
-}
-
-
-#LeftDiv{
-    height:500px;
-    float:left; 
-    width:300px; 
-    text-align:left;
-    padding:20px;
-    border-style:solid;
-    border-color:black;
-    border-width:1pt;
-}
-
-
-#RightDiv{
-    height:500px;
-    float:right;
-    width:500px;
-    text-align:left;
-    padding:20px;
-    border-style:solid;
-    border-color:black;
-    border-width:1pt;
 }
